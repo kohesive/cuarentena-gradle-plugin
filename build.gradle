@@ -2,5 +2,5 @@ apply plugin: 'groovy'
 
 dependencies {
     compile gradleApi()
-    compile localGroovy()
+    compile files('lib-tmp/cuarentena-1.0.0-BETA-08.jar')
 }
